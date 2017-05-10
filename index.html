@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Generator" content="EditPlus®">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+        <link rel="stylesheet" href="css/banner.css">
+		<title>无缝banner</title>
+		<style>
+            *{margin:0;padding:0;}
+            body{font-size:14px;font-family:"微软雅黑";}
+            ul li{list-style:none;}
+		</style>
+	</head>
+<body>
+	<div id="banner"></div>
+    <div id="sliderbanner"></div>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/banner.js"></script>
+	<script type="text/javascript">
+
+		$(function(){
+            $("#banner").leafBanner({
+                imgs:[
+                    {src:"images/1.jpg",href:"javascript:void(0)",alt:"轮播图"},
+                    {src:"images/2.jpg",href:"javascript:void(0)",alt:"轮播图"},
+                    {src:"images/3.jpg",href:"javascript:void(0)",alt:"轮播图"},
+                    {src:"images/4.jpg",href:"javascript:void(0)",alt:"轮播图"},
+                    {src:"images/5.jpg",href:"javascript:void(0)",alt:"轮播图"},
+                    {src:"images/6.jpg",href:"javascript:void(0)",alt:"轮播图"},
+                    {src:"images/7.jpg",href:"javascript:void(0)",alt:"轮播图"},
+                    {src:"images/8.jpg",href:"javascript:void(0)",alt:"轮播图"}
+                ]
+            });
+		});
+
+	</script>
+</body>
+</html>
